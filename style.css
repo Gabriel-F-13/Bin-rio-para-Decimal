@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;  
+    background-size: cover;  
+    opacity: 0.7;
+    position: absolute;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    position: absolute;
+    width: 100vw;
+    height: 40vh;
+}
+
+.title {
+    color: rgb(0, 38, 255);
+    background-color: rgb(240, 248, 255);
+    font-size: 32px;
+    margin-bottom: 45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.subTitle {
+    color: rgb(08, 45, 255);
+    background-color: rgb(240, 248, 255);
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.areaField {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35vh;
+    width: 50vw;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 8px;
+    flex-direction: column;
+    background-image: url('img/matrix.jpg');    
+    background-size: cover;    
+    position: absolute
+}
+
+.buttonConvert {
+    margin-top: 40px;
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    border: 2px solid #000;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;   
+}
+
+#inputField {
+    height: 40px;
+    padding: 10px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+}
+
+.f {
+    color:rgb(30,120,80);
+    background-color: rgb(240, 248, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-radius: 10px;
+    width: 420px;
+    position: fixed;
+    bottom: 0px;
+}

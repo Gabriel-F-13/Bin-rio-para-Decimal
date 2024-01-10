@@ -99,54 +99,7 @@ header {
     bottom: 0px;
 }
 
-@media screen and (max-width: 400px) {
-    .areaField {
-        width: 45vw;
-        margin-top: 20vh;
-        object-fit: contain;
-    }   
-    .title {
-        font-size: 22px;
-    } 
-    .subTitle {
-        font-size: 15px;
-    } 
-    #inputField {
-        height: 30px;
-        width: 105px;
-        padding: 7px;
-        font-size: 13px;
-        text-align: center;    
-    }    
-    .buttonConvert {
-        padding: 7.5px;
-        font-size: 12px;
-    }    
-    .f {
-        width: 320px;
-        font-size: 14px;
-    } 
-}
-
-@media screen and (max-width: 688px) {
-    .areaField {
-        width: 45vw;
-        margin-top: 20vh;
-        object-fit: contain;
-    }   
-    #inputField {
-        height: 30px;
-        width: 125px;
-        padding: 7px;
-        font-size: 16px;
-        text-align: center;    
-    }    
-    .buttonConvert {
-        padding: 9px;
-    }    
-}
-
-@media screen and (min-width: 1440px) {
+@media (min-width: 1440px) {
     .areaField {
         width: 65vw;
         object-fit: contain;
@@ -171,5 +124,44 @@ header {
     .f {
         width: 720px;
         font-size: 18px;
+    } 
+}
+
+@media (max-width: 688px) {
+    .areaField {
+        width: 45vw;
+        margin-top: 20vh;
+        object-fit: contain;
+    }   
+    #inputField {
+        height: 30px;
+        width: 125px;
+        padding: 7px;
+        font-size: 16px;
+        text-align: center;    
+    }    
+    .buttonConvert {
+        padding: 9px;
+    }    
+}
+
+@media  (max-width: 400px) {
+    .title {
+        font-size: 22px;
+    } 
+    .subTitle {
+        font-size: 15px;
+    } 
+    #inputField {
+        width: 105px;
+        font-size: 13px;    
+    }    
+    .buttonConvert {
+        padding: 7.5px;
+        font-size: 12px;
+    }    
+    .f {
+        width: 320px;
+        font-size: 14px;
     } 
 }
